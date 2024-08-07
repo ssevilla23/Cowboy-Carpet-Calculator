@@ -1,0 +1,62 @@
+body {
+  font-family: "Playwrite DE Grund", cursive;
+  background-color: #e4f3eb;
+  font-size: 16px;
+}
+
+header img {
+  width: 100%;
+}
+
+section {
+  padding: 20px;
+}
+
+#carpetForm {
+  margin: auto;
+  padding: 30px;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.671);
+}
+
+h5{
+  text-align: center;
+}
+
+#carpetForm select,
+#carpetForm input {
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+#form-footer {
+  padding: 20px;
+}
+
+button {
+  color: white;
+  background-color: #229956;
+  outline: none;
+  border: none;
+  font-size: 24px;
+}
+
+#result-container {
+  position: relative;
+  height: 100px;
+  background-color: #e4f3eb;
+}
+
+#result-container span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size: 18px;
+  transform: translateX(-50%);
+}
+
+#result {
+  font-size: 50px;
+  line-height: 120px;
+  text-align: center;
+}
